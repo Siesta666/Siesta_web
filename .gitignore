@@ -1,0 +1,13 @@
+# 隔离 Hugo 自动生成的成品目录
+public/
+
+# 隔离资源缓存（加速构建用的，不需要上传）
+resources/
+_gen/
+
+# 隔离本地开发时的锁定文件
+.hugo_build.lock
+
+# 隔离操作系统产生的杂物（可选）
+.DS_Store
+Thumbs.db
